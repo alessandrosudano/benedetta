@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Miti e leggende di Sicilia</title>
+<link href="style.css" type="text/css" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles/w3.css">
+<link rel="stylesheet" href="styles/w3-theme-black.css">
+<link rel="stylesheet" href="styles/font-awesome.min.css">
+
+
+
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: green;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: green;
+}
+</style>
+</head>
+<body>
+
+<div class="w3-bar w3-theme">
+  <a href="index.html" class="w3-bar-item w3-button w3-padding-16">Home</a>
+  <div class="w3-dropdown-hover">
+    <button class="w3-button w3-padding-16">
+            <a href="indice.html" >Indice</a>
+
+    </button>
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+      <a href="alfeo-aretusa.html" class="w3-bar-item w3-button">Alfeo e Aretusa</a>
+	  <a href="colapesce.html" class="w3-bar-item w3-button">Colapesce</a>
+	  <a href="fuora.html" class="w3-bar-item w3-button">Donne di Fuora</a>
+	  <a href="friscalettu.html" class="w3-bar-item w3-button">Friscalettu</a>
+	  <a href="principessa.html" class="w3-bar-item w3-button">La principessa Sicilia </a>
+	  <a href="proserpina.html" class="w3-bar-item w3-button">Ratto di Proserpina</a>
+	  <a href="scilla-cariddi.html" class="w3-bar-item w3-button">Scilla e Cariddi</a>
+
+    </div>
+
+  </div>
+  <a href="galleria.html" class="w3-bar-item w3-button w3-padding-16">Galleria</a>
+  <a href="about.html" class="w3-bar-item w3-button w3-padding-16">Sud di me</a>
+
+
+</div>
+
+
+<!-- Header -->
+<header class="w3-container w3-padding" id="myHeader">
+  <div class="w3-center">
+  <h1 class="w3-xxxlarge">Miti e leggende di Sicilia</h1>
+  <h4 class="w3-xxlarge w3-animate-bottom">Scopri le affascinanti storie della meravigliosa isola siciliana!</h4>
+  
+ <!-- slideshow--> 
+  <div class="w3-content" style="max-width:100%;position:relative">
+  
+  <div  style="  width: 80%;
+  margin: auto;">
+
+<img class="mySlides w3-animate-opacity" src="images/Alfeo-ed-Aretusa-Castellammare-di-Stabia-collezione-Varone.jpg" style="width:100%">
+<img class="mySlides w3-animate-opacity" src="images/trinacria.jpg" style="width:100%">
+<img class="mySlides w3-animate-opacity" src="images/sicilia-personificata.jpg" style="width:100%">
+</div>
+
+<a class="w3-button w3-hover-dark-grey" style="position:absolute;top:45%;left:0;" onclick="plusDivs(-1)">❮-</a>
+<a class="w3-button w3-hover-dark-grey" style="position:absolute;top:45%;right:0;" onclick="plusDivs(+1)">-❯</a>
+</div>
+
+ <!-- pulsanti-->
+  
+  
+<div class="w3-center">
+  <br>
+  <a href="indice.html" class="w3-btn w3-xlarge w3-green w3-hover-light-grey">Leggi di più</a>
+  <a href="galleria.html" class="w3-btn w3-xlarge w3-green w3-hover-light-grey">Galleria immagini</a>
+  
+</div>
+
+</header>
+<div class="w3-center">
+  <h4 class="w3-xxlarge w3-animate-bottom">I miti più famosi</h4>
+</div>
+<div class="w3-row-padding w3-center w3-margin-top">
+<div class="w3-third">
+  <div class="w3-card w3-container" style="min-height:460px">
+  <h3>Aretusa e Alfeo</h3><br>
+
+<a href="alfeo-aretusa.html">
+  <img src="images/alfeo-e-aretusa.jpg" alt="Alfeo e Aretusa" style="width:100%">
+</a>
+  <p><a href="alfeo-aretusa.html">inizio racconto...</a></p>
+ 
+  </div>
+</div>
+
+<div class="w3-third">
+  <div class="w3-card w3-container" style="min-height:460px">
+  <h3>Le donne di fuora</h3><br>
+  
+  <a href="fuora.html">
+  <img src="images/donne di fuora.jpg" alt="Le donne di fuora" style="width:100%">
+</a>
+  <p><a href="fuora.html">inizio racconto...</a></p>
+ 
+  </div>
+</div>
+
+<div class="w3-third">
+  <div class="w3-card w3-container" style="min-height:460px">
+  <h3>Colapesce</h3><br>
+  
+
+  <a href="colapesce.html">
+  <img src="images/Leggenda-di-Colapesce.jpg" alt="Colapesce" style="width:100%">
+</a>
+  <p><a href="colapesce.html">inizio racconto...</a></p>
+
+  </div>
+</div>
+</div>
+
+<script>
+// Side navigation
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "100%";
+  x.style.fontSize = "40px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+
+// Slideshows
+var slideIndex = 1;
+
+function plusDivs(n) {
+  slideIndex = slideIndex + n;
+  showDivs(slideIndex);
+}
+
+function showDivs(n) {
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+
+showDivs(1);
+</script>
